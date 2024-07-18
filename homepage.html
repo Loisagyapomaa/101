@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LearnLodge</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>      
+<body> <header id="header">
+	<nav>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#testimonies_section">Testimonies</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+            <div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="signup.html">Get Started</a>
+
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+        <div class="head-container">
+			<div class="quote">
+				<p>Empowering homeschoolers with a stress free virtual learning solutions</p>
+			<div class="svg-image">
+				<img src="images/extra/svg1.jpg" alt="svg">
+			</div>
+		</div>
+        <div class="side-menu" id="side-menu">
+            <div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+            <div class="user">
+				<img src="images/icon/logo.png" alt="Username">
+				<p>LearnLodge</p>
+			</div>
+            <ul>
+                <li><Dashboard</li>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#team_section">Testimonials</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+        </div>
+    </header>
+
+    <div class="title">
+        <span>Subjects provided by LearnLodge </span>
+    </div>
+    <br><br>
+    <div class="course">
+        <div class="cbox">
+            <div class="det"><a href="login.html"><img src="images/courses/book.png" alt="">Mathematics</a></div>
+            <div class="det"><a href="login.html"><img src="images/courses/d1.png" alt="">Science</a></div>
+            <div class="det"><a href="login.html"><img src="images/courses/paper.png" alt="">English</a></div>
+            <div class="det"><a href="login.html"><img src="images/courses/computer.png" alt="">Computer Courses</a></div>
+            <div class="det"><a href="login.html"><img src="images/courses/d1.png" alt="">Daily quiz</a></div>
+            
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<p style="font-size: 50px; padding: 100px">About</p>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/e3.jpg">
+				</div>
+				<div class="side-text">
+					<h2>About us</h2>
+				    <p>LearnLodge is a comprehensive online platform designed to support and empower homeschooling families. Our mission is to provide a flexible, personalized, and engaging learning experience that fosters academic excellence, creativity, and character development</p>
+				</div>
+		</div>
+	</div>
+   
+<!-- SERVICES -->
+<div class="service-swipe">
+	<div class="diffSection" id="services_section">
+	<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>
+	</div>
+	<a href="login.html"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Free Online Computer Courses</p></div></a>
+	
+	<a href="login.html"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Online Video Lectures</p></div></a>
+	<a href="login.html"><div class="s-card"><img src="images/icon/papers.jpg"><p>Sample Papers of Various Subjects </p></div></a>
+	<a href="login.html"><div class="s-card"><img src="images/icon/p3.png"><p>Performance and Ranking Report</p></div></a>
+	<a href="#contactus_section"><div class="s-card"><img src="images/icon/discussion.png"><p>Discussion with Our Tutors & Mentors</p></div></a>
+	<a href="login.html"><div class="s-card"><img src="images/icon/q1.png"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a>
+	<a href="#contactus_section"><div class="s-card"><img src="images/icon/help.png"><p>24x7 Online Support</p></div></a>
+</div>
+
+<!--TESTIMONIES-->
+<div id="makeitfull">
+	<a href="#testimonies_section"><img src="images/icon/makeitfull.png"></a>
+</div>
+<div class="testimonies-swipe"
+<div class="diffSection" id="testimonies_section">
+	<p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Testimonies</p>
+	<div class="content">
+		
+	</div>
+</div>
+<div class="review">
+	
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist1.jpg"><p>Priscilla</p>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					"I was hesitant to try online homeschooling, but LearnLodge has exceeded all my expectations! The platform is user-friendly, and the lessons are comprehensive and well-structured. LearnLodge has given me the freedom and flexibility to learn at my own pace, and I couldn't be happier!"
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist2.jpg"><p>Daniel</p>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					"I've tried several homeschooling platforms in the past, but LearnLodge is by far the best! The platform is modern, intuitive, and easy to use, and the lessons are engaging and relevant. I love that I can access the platform from anywhere, and that I can learn at my own pace. The community features are also amazing. I have made friends with other homeschoolers and we motivate each other to learn. LearnLodge has been a game-changer for my homeschooling journey!"
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist3.jpg"><p>Kofi</p>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					"I love that LearnLodge lets me learn in a way that works best for me. I'm a visual learner, so the videos  really help me understand the material. And the best part is, I can learn from anywhere - whether it's at home, in the library, or even on vacation!"
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/humanNotExist4.jpg"><p>Candy</p>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					"I was worried about missing out on social interactions when I started homeschooling, but LearnLodge has been a lifesaver! The online community is so much fun - I've made friends with other students who share similar interests, and we get to collaborate on projects and discuss topics that matter to us. It's like having a virtual study group!"
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="footer-container">
+		<div class="left-col">
+			<div class="social-media">
+				<a href="#"><img src="images/icon\fb.png"></a>
+				<a href="#"><img src="images/icon\insta.png"></a>
+				<a href="#"><img src="images/icon\tt.png"></a>
+				<a href="#"><img src="images/icon\ytube.png"></a>
+				<a href="#"><img src="images/icon\linkedin.png"></a>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
